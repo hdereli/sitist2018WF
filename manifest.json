@@ -70,6 +70,13 @@
 					"target": [
 						"main"
 					]
+				},
+				{
+					"name": "Tasks",
+					"pattern": "tasks",
+					"target": [
+						"tasks"
+					]
 				}
 			],
 			"targets": {
@@ -78,6 +85,12 @@
 					"transition": "slide",
 					"clearAggregation": true,
 					"viewName": "Main"
+				},
+				"tasks": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearAggregation": true,
+					"viewName": "Tasks"
 				}
 			}
 		}

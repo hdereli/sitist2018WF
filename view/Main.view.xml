@@ -3,14 +3,25 @@
 	xmlns:mvc="sap.ui.core.mvc" 
     displayBlock="true" xmlns="sap.m">
 
-
 	<App id="idAppControl">
 		<pages>
 			<Page title="{i18n>title}">
+
+				<headerContent>
+					<!--<Button press="onTasksPress" icon="sap-icon://action" tooltip="Go To Tasks" text="Go To Tasks" /> -->
+				</headerContent>
+
 				<content>
 				
-				<VBox>
-					<Button text="test"></Button>
+				<VBox alignItems="Center" class="sapUiLargeMargin ">
+
+					<Title text="Registration Form" titleStyle="H3"/>
+
+					<Input id="userid" placeholder="Username"/>
+					<Input id="name" placeholder="Name"/>
+					<Input id="surname" placeholder="Surname"/>
+					<Button text="Register" press="onRegisterPress"/>
+
 				</VBox>
 				
 				

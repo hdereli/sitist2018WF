@@ -1,0 +1,17 @@
+<mvc:View controllerName="com.huseyindereli.wfapp.controller.Tasks" 
+    xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:mvc="sap.ui.core.mvc" 
+    displayBlock="true" xmlns="sap.m">
+
+
+    <Page title="Tasks">
+        <content>
+        
+
+        
+        </content>
+    </Page>
+
+
+
+</mvc:View>
